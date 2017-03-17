@@ -1,9 +1,9 @@
 {
-  "name": "quotes-generator",
+  "name": "movie-quotes",
   "version": "1.0.0",
   "description": "Get popular movie quotes",
   "license": "MIT",
-  "repository": "vilaboim/quotes-generator",
+  "repository": "vilaboim/movie-quotes",
   "author": {
     "name": "Lucas Vilaboim",
     "email": "lucas@vilaboim.com",

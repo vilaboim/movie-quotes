@@ -10,7 +10,7 @@ var cli = meow([
 	'',
 	'  $ movie-quotes --all',
 	'  "Frankly, my dear, I don\'t give a damn." Gone with the Wind',
-    '  "I\'m gonna make him an offer he can\'t refuse." The Godfather',
+	'  "I\'m gonna make him an offer he can\'t refuse." The Godfather',
 	'  ...',
 	'',
 	'Options',
