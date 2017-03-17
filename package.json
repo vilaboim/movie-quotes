@@ -1,0 +1,47 @@
+{
+  "name": "quotes-generator",
+  "version": "1.0.0",
+  "description": "Get popular movie quotes",
+  "license": "MIT",
+  "repository": "vilaboim/quotes-generator",
+  "author": {
+    "name": "Lucas Vilaboim",
+    "email": "lucas@vilaboim.com",
+    "url": "vilaboim.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "movie-quotes.json"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "rand",
+    "movies",
+    "quote",
+    "quotes",
+    "cinema"
+  ],
+  "dependencies": {
+    "meow": "^3.6.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "^0.16.0"
+  }
+}
