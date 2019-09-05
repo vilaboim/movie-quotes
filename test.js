@@ -1,7 +1,7 @@
 import test from 'ava';
 import x from './';
 
-test(t => {
+test('test movie-quotes', t => {
 	t.true(x.all.length > 0);
 	t.truthy(x.random());
 	t.not(x.random(), x.random());
