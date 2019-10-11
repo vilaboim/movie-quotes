@@ -6,7 +6,7 @@
 
 The name list is just a [JSON file](movie-quotes.json) and can be used wherever.
 
-*Not accepting PRs for additional quotes.*
+**Accepting PRs for additional quotes.**
 
 
 ## Install
