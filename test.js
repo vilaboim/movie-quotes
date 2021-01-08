@@ -1,5 +1,6 @@
+import * as x from './index.js';
+
 import test from 'ava';
-import x from './';
 
 test('test movie-quotes', t => {
 	t.true(x.all.length > 0);

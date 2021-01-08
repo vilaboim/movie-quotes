@@ -1,6 +1,7 @@
 'use strict';
-var uniqueRandomArray = require('unique-random-array');
-var movieQuotes = require('./movie-quotes.json');
 
-exports.all = movieQuotes;
-exports.random = uniqueRandomArray(movieQuotes);
+import movieQuotes from './movie-quotes.js';
+import uniqueRandomArray from 'unique-random-array';
+
+export const all = movieQuotes;
+export const random = uniqueRandomArray(movieQuotes);

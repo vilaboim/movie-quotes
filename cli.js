@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var movieQuotes = require('./');
+const meow = require('meow');
+const movieQuotes = require('./');
 
-var cli = meow(`
+const cli = meow(`
 	Examples
 	 $ movie-quotes
 	 "Show me the money!" Jerry Maguire
 
 	 $ movie-quotes --all',
-	 "Frankly, my dear, I don\'t give a damn." Gone with the Wind
-	 "I\'m gonna make him an offer he can\'t refuse." The Godfather
+	 "Frankly, my dear, I don't give a damn." Gone with the Wind
+	 "I'm gonna make him an offer he can't refuse." The Godfather
 	 ...
 
 	Options

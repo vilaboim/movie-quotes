@@ -1,6 +1,6 @@
 {
   "name": "movie-quotes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get popular movie quotes",
   "license": "MIT",
   "repository": "vilaboim/movie-quotes",
@@ -11,8 +11,9 @@
   },
   "bin": "cli.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=8.0.0"
   },
+  "type": "module",
   "scripts": {
     "test": "xo && ava",
     "release:tags": "git push && git push --tags",
@@ -41,11 +42,11 @@
     "cinema"
   ],
   "dependencies": {
-    "meow": "^5.0.0",
+    "meow": "^9.0.0",
     "unique-random-array": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "^2.3.0",
-    "xo": "^0.16.0"
+    "ava": "^3.15.0",
+    "xo": "^0.37.1"
   }
 }
